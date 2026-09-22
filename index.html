@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A private home for a personal rclone setup.">
+  <title>Rclone Home | Personal cloud access</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header shell">
+    <a class="brand" href="index.html" aria-label="Rclone Home">RCL<span>:</span>HOME</a>
+    <nav aria-label="Main navigation">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Personal utility · Private by design</p>
+        <h1>My files,<br><em>in motion.</em></h1>
+        <p class="lede">A small, personal home for the cloud connections I use with rclone. Built for one person, one setup, and no unnecessary noise.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">See how it works <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="privacy.html">Read the privacy policy <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="transfer-visual" aria-label="Illustration of a private file transfer" role="img">
+        <div class="visual-topline"><span>LOCAL / CLOUD</span><span>SYNC 01</span></div>
+        <div class="transfer-path">
+          <div class="storage-node local-node">
+            <span class="node-icon">⌂</span>
+            <strong>my machine</strong>
+            <small>LOCAL STORAGE</small>
+          </div>
+          <div class="path-line"><span class="path-arrow">→</span></div>
+          <div class="storage-node cloud-node">
+            <span class="node-icon">☁</span>
+            <strong>cloud drive</strong>
+            <small>REMOTE STORAGE</small>
+          </div>
+        </div>
+        <div class="visual-footer"><span>ENCRYPTED IN TRANSIT</span><span class="pulse">● CONNECTED</span></div>
+      </div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="shell about-grid">
+        <div>
+          <p class="section-label">01 / The short version</p>
+          <h2>Just enough site<br>to make the setup official.</h2>
+        </div>
+        <div class="about-copy">
+          <p>This website supports a personal Google connection used with <a href="https://rclone.org/" target="_blank" rel="noreferrer">rclone</a>. It is not a public service, a file-sharing product, or a business. No one else is invited to create an account or use this site.</p>
+          <p>The links below are here so the Google authorization flow can identify the application and its policies clearly.</p>
+          <div class="policy-links">
+            <a href="privacy.html"><span>Privacy policy</span><span aria-hidden="true">↗</span></a>
+            <a href="terms.html"><span>Terms of service</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details shell">
+      <div class="detail-card">
+        <p class="section-label">02 / Personal scope</p>
+        <h3>One account.<br>One operator.</h3>
+        <p>This project exists for my own storage workflow. Access is controlled through Google and rclone, not through this website.</p>
+      </div>
+      <div class="detail-card accent-card">
+        <p class="section-label">03 / Open source tool</p>
+        <h3>Powered by<br>rclone.</h3>
+        <p>rclone moves and manages files across cloud storage providers. Learn more at <a href="https://rclone.org/" target="_blank" rel="noreferrer">rclone.org <span aria-hidden="true">↗</span></a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <span>© 2026 Personal rclone setup</span>
+    <div><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+  </footer>
+</body>
+</html>
