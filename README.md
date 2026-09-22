@@ -13,4 +13,4 @@ A small static homepage for a personal rclone setup. It includes the public page
 3. Under **Build and deployment**, choose **Deploy from a branch**, then select the default branch and `/ (root)`.
 4. Save and wait for GitHub Pages to publish the site.
 
-The site has no build step. The Google Fonts stylesheet is the only external asset; the pages remain usable with the local fallback fonts if it is unavailable.
+The site has no build step and uses plain HTML.
